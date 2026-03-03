@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cortex Vidraçaria - Vidros e Espelhos desde 2015</title>
+  <title>Equipe RJ - Criação de Sites Profissionais</title>
   <style>
     * {
       margin: 0;
@@ -13,20 +13,20 @@
 
     body {
       font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-      background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
-      color: #e65100;
+      background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+      color: #0d47a1;
       line-height: 1.6;
       min-height: 100vh;
     }
 
     header {
-      background: #e65100;
+      background: #1976d2;
       padding: 18px 0;
       position: fixed;
       top: 0;
       width: 100%;
       z-index: 100;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.12);
     }
 
     .header-container {
@@ -58,7 +58,7 @@
     }
 
     nav a {
-      color: #fffde7;
+      color: #e3f2fd;
       text-decoration: none;
       font-size: 1.1rem;
       font-weight: 500;
@@ -68,7 +68,7 @@
 
     nav a:hover, nav a.active {
       color: white;
-      text-shadow: 0 0 8px rgba(255,255,255,0.6);
+      text-shadow: 0 0 8px rgba(255,255,255,0.5);
     }
 
     main {
@@ -86,9 +86,9 @@
     }
 
     .logo-hero img.main-logo {
-      max-width: 320px;
+      max-width: 280px;
       height: auto;
-      filter: drop-shadow(0 8px 16px rgba(230,81,0,0.4));
+      filter: drop-shadow(0 8px 16px rgba(25,118,210,0.4));
     }
 
     .watermark {
@@ -98,18 +98,18 @@
       transform: translate(-50%, -50%);
       width: 80%;
       max-width: 700px;
-      opacity: 0.08;
+      opacity: 0.06;
       pointer-events: none;
       z-index: -1;
-      filter: brightness(1.1);
+      filter: brightness(1.2);
     }
 
     .intro, .content-section {
-      background: rgba(255,255,255,0.95);
+      background: rgba(255,255,255,0.92);
       border-radius: 16px;
       padding: 40px 35px;
       margin: 30px 0;
-      box-shadow: 0 8px 32px rgba(230,81,0,0.2);
+      box-shadow: 0 8px 32px rgba(25,118,210,0.18);
       text-align: center;
       position: relative;
       overflow: hidden;
@@ -117,14 +117,14 @@
 
     .intro p {
       font-size: 1.22rem;
-      color: #ef6c00;
+      color: #1565c0;
       margin: 20px 0;
     }
 
     .intro p:last-child {
       font-weight: 600;
       font-size: 1.3rem;
-      color: #e65100;
+      color: #0d47a1;
     }
 
     .content-section {
@@ -136,10 +136,10 @@
     }
 
     .section h2 {
-      color: #e65100;
+      color: #1976d2;
       font-size: 2.1rem;
       margin-bottom: 28px;
-      border-bottom: 3px solid #ffcc80;
+      border-bottom: 3px solid #bbdefb;
       padding-bottom: 12px;
       display: inline-block;
     }
@@ -149,19 +149,19 @@
     .contato a:visited,
     .contato a:hover,
     .contato a:active {
-      color: #e65100 !important;
+      color: #0d47a1 !important;
       text-decoration: none;
       font-weight: 600;
     }
 
     .contato a:hover {
-      color: #ef6c00 !important;
+      color: #1976d2 !important;
       text-decoration: underline;
     }
 
     footer {
-      background: #e65100;
-      color: white;
+      background: #1976d2;
+      color: #e3f2fd;
       text-align: center;
       padding: 28px 0;
       margin-top: 80px;
@@ -177,7 +177,7 @@
         top: 100%;
         left: 0;
         width: 100%;
-        background: #e65100;
+        background: #1976d2;
         padding: 20px 0;
         box-shadow: 0 8px 20px rgba(0,0,0,0.15);
       }
@@ -185,7 +185,7 @@
       nav a { margin: 16px 0; font-size: 1.3rem; text-align: center; }
       .header-container { padding: 0 15px; }
       .logo-title { font-size: 1.8rem; }
-      .logo-hero img.main-logo { max-width: 240px; }
+      .logo-hero img.main-logo { max-width: 220px; }
       main { margin-top: 90px; padding: 15px; }
       .intro, .content-section { padding: 32px 20px; }
       .watermark { width: 90%; max-width: 500px; }
@@ -196,12 +196,12 @@
 
 <header>
   <div class="header-container">
-    <div class="logo-title">Cortex Vidraçaria</div>
+    <div class="logo-title">Equipe RJ</div>
     <div class="menu-icon" onclick="toggleMenu()">☰</div>
     <nav id="nav-menu">
       <a onclick="showSection('inicio')">Início</a>
-      <a onclick="showSection('especializacao')">Nossos Serviços</a>
-      <a onclick="showSection('endereco')">Atendimento & Loja</a>
+      <a onclick="showSection('especializacao')">Criação de Sites</a>
+      <a onclick="showSection('endereco')">Atendimento</a>
       <a onclick="showSection('contato')">Contato</a>
     </nav>
   </div>
@@ -210,57 +210,57 @@
 <main>
 
   <div class="logo-hero">
-    <img src="logo.png" alt="Cortex Vidraçaria - Logo Oficial" class="main-logo">
+    <img src="logo.png" alt="Equipe RJ Logo" class="main-logo">
   </div>
 
   <div id="inicio" class="intro content-section active">
     <img src="logo.png" class="watermark" alt="">
-    <p>Desde 2015, a Cortex Vidraçaria oferece soluções profissionais em vidros e espelhos com qualidade comprovada e acabamento impecável.</p>
-    <p>Especializada em vidros temperados, espelhos lapidados, boxes blindex e ferragens de alta performance, atendemos com rigor técnico e compromisso com a segurança e durabilidade em todos os projetos.</p>
-    <p>Atendimento exclusivo para Duque de Caxias e regiões próximas, garantindo proximidade, agilidade e suporte personalizado.</p>
+    <p>Transformamos suas ideias em sites modernos, rápidos e que realmente convertem clientes.</p>
+    <p>Design atual, performance otimizada, 100% responsivo e foco total no seu resultado.</p>
+    <p>Seu próximo site profissional começa aqui. 🚀</p>
   </div>
 
   <div id="especializacao" class="content-section">
     <img src="logo.png" class="watermark" alt="">
-    <h2>Nossos Serviços</h2>
+    <h2>🌐 Criação de Sites</h2>
     
-    <p><strong>Atuamos com excelência em diversas especialidades do setor vidreiro, utilizando materiais de primeira linha e processos certificados.</strong></p>
+    <p><strong>Desenvolvemos sites profissionais e modernos para você ou seu negócio.</strong></p>
     
-    <p>Principais serviços oferecidos:</p>
+    <p>Site institucional, portfólio, loja virtual, landing page, blog — entregamos tudo com:</p>
     
-    <ul style="list-style: none; margin: 28px 0; padding: 0; font-size: 1.18rem; text-align: left; max-width: 680px; margin-left: auto; margin-right: auto; color: #ef6c00;">
-      <li>✓ Vidros comuns e temperados em diversas espessuras e aplicações</li>
-      <li>✓ Espelhos lapidados e bisotados sob medida</li>
-      <li>✓ Box blindex – venda, instalação e manutenção preventiva e corretiva</li>
-      <li>✓ Tampos de mesa em vidro de 4 mm a 20 mm (retangular, redondo, chanfrado ou bisotado)</li>
-      <li>✓ Ferragens para vidros temperados e kits completos para blindex</li>
+    <ul style="list-style: none; margin: 28px 0; padding: 0; font-size: 1.18rem; text-align: left; max-width: 680px; margin-left: auto; margin-right: auto; color: #1565c0;">
+      <li>✓ Design moderno e 100% responsivo (celular, tablet, desktop)</li>
+      <li>✓ Carregamento rápido e otimizado</li>
+      <li>✓ SEO básico incluso (melhor posicionamento no Google)</li>
+      <li>✓ Fácil de editar e atualizar sozinho</li>
+      <li>✓ Suporte pós-entrega</li>
     </ul>
     
-    <p style="font-weight: bold; font-size: 1.3rem; margin-top: 35px; color: #e65100;">
-      Qualidade, precisão e segurança em cada etapa do processo.
+    <p style="font-weight: bold; font-size: 1.3rem; margin-top: 35px; color: #0d47a1;">
+      Vamos colocar sua marca na internet do jeito certo!
     </p>
   </div>
 
   <div id="endereco" class="content-section">
     <img src="logo.png" class="watermark" alt="">
-    <h2>Atendimento e Loja Física</h2>
-    <p><strong>Endereço da loja:</strong> Estrada do China, 864 – Parque Fluminense, Duque de Caxias – RJ</p>
-    <p><strong>Atendimento:</strong> Presencial na loja e serviços próximos a Duque de Caxias</p>
-    <p>Operamos exclusivamente na região de Duque de Caxias e arredores, proporcionando atendimento próximo, medições precisas, instalação rápida e suporte contínuo após a entrega.</p>
+    <h2>Atendimento</h2>
+    <p><strong>Atendimento 100% online</strong></p>
+    <p>Atendemos clientes de todo o Brasil via WhatsApp, e-mail e chamadas.</p>
+    <p>Você não precisa sair de casa — resolvemos tudo remotamente com agilidade e qualidade.</p>
   </div>
 
   <div id="contato" class="content-section contato">
     <img src="logo.png" class="watermark" alt="">
-    <h2>Entre em Contato</h2>
-    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5521991845571" target="_blank">+55 21 99184-5571</a></p>
-    <p><strong>E-mail:</strong> <a href="mailto:cortexvidracaria2015@gmail.com">cortexvidracaria2015@gmail.com</a></p>
-    <p>Solicite seu orçamento sem compromisso. Nossa equipe responde rapidamente e fornece orientações completas para o seu projeto.</p>
+    <h2>Fale Conosco</h2>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5521987541339" target="_blank">(21) 98754-1339</a></p>
+    <p><strong>Email:</strong> <a href="mailto:gugadorj@gmail.com">gugadorj@gmail.com</a></p>
+    <p>Resposta rápida e orçamento sem compromisso. Manda sua ideia agora! 😊</p>
   </div>
 
 </main>
 
 <footer>
-  <p>© 2025 Cortex Vidraçaria – Desde 2015 – Especialista em Vidros Temperados e Espelhos – Atendimento exclusivo em Duque de Caxias e proximidades – Todos os direitos reservados</p>
+  <p>© 2025 Equipe RJ – Criação de Sites – Todos os direitos reservados</p>
 </footer>
 
 <script>
